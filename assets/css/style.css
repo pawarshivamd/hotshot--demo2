@@ -571,7 +571,9 @@ input[type=number] {
         & img {
             width: 100%;
             animation:easeOutBounce 1s CUBIC-BEZIER(0.25, 0.1, 0.25, 1) !important;
-            animation-duration: 1.2s !important;
+            /* animation-duration: 1s !important; */
+            /* animation-delay: 2s !important; */
+            transform: scale(1.1);
             /* animation-delay: 0.5s !important; */
             /* animation-duration: 4000ms; */
             /* animation-timing-function: CUBIC-BEZIER(0.25, 0.1, 0.25, 1); */
@@ -919,33 +921,29 @@ input[type=number] {
       transform: translateX(0);
     }
     20% {
-      transform: translateX(-20px);
-      transform: scale(1.0);
+      transform: translateX(-35px);
+      /* transform: scale(1.0); */
       transition: all 0.5s ease-in-out;
 
     }
     40% {
-      transform: translateX(-10px);
-      transform: scale(1.1);
+      transform: translateX(-5px) ;
+      /* transform: scale(1.0); */
       transition: all 0.5s ease-in-out;
 
     }
     60% {
-      transform: translateX(-6px);
-      transform: scale(1.2);
-      transition: all 0.5s ease-in-out;
+      transform: translateX(-15px) scale(1.0);
+
 
     }
     80% {
-      transform: translateX(-15px);
-      transform: scale(1.1.1);
-      transition: all 0.5s ease-in-out;
+      transform: translateX(-25px) scale(1.1);
 
     }
     100% {
-      transform: translateX(-10px);
-      transform: scale(1.0);
-      transition: all 0.5s ease-in-out;
+      transform: translateX(0px) scale(1.1);
+      /* transform: scale(1.0); */
 
     }
   }

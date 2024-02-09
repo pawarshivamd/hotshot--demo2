@@ -116,6 +116,7 @@ var swiper = new Swiper(".mySwiper", {
   freeMode: false,
   disableOnInteraction: false,
   autoplayDisableOnInteraction: false,
+  initialSlide: 1,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
